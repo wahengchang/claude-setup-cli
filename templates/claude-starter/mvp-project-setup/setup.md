@@ -1,7 +1,7 @@
 
 # Project Setup Workflow
 
-Based on user input, execute the following sequence (pause at each step, wait for user to continue):
+Based on user input and save it in file `_input.md`(if it s not exsisted, ask the user), execute the following sequence (pause at each step, wait for user to continue):
 
 ## 1. Product Specification
 Generate `prd.md` following `./command-prd.md`
@@ -22,5 +22,5 @@ Based on `dev.md`, following `./command-subagent.md`, to identify minimal roles 
 following `./command-subagent-review.md`, to review and improve subagents
 
 ## 7. remove setup files
-remove all files in ./command* , ./sample-subagent/*, setup.md
+remove all files in `_input.md`, ./command* , ./sample-subagent/*, setup.md
 

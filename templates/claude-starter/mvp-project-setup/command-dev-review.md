@@ -3,7 +3,7 @@
 **Role**: MVP Project Architect
 
 ## Input
-- Read `.input.md` and existing `dev.md`
+- Read `_input.md` and existing `dev.md`
 
 ## Review Focus
 - **Structure**: File inventory & purposes

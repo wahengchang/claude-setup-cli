@@ -2,7 +2,7 @@
 
 For this MVP project, create a lean product requirement document:
 
-**Prerequisites:** Read `./.input.md` for project context
+**Prerequisites:** Read `./_input.md` for project context
 
 **Step 1** - High-level overview analysis (project type, users, purpose)
 **Step 2** - Brainstorm key MVP points (essential features, constraints, success criteria)  

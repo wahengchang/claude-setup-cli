@@ -4,4 +4,4 @@ Create a lean development requirements document that defines:
 2. Core MVP features from project requirements
 3. Essential development standards
 
-Read project files (.input.md, prd.md) to understand context, then specify technical choices that ensure team alignment on the development approach.
+Read project files (_input.md, prd.md) to understand context, then specify technical choices that ensure team alignment on the development approach.
