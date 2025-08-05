@@ -16,7 +16,15 @@
     "fs-extra": "^11.0.0",
     "chalk": "^4.1.2"
   },
-  "keywords": ["cli", "setup", "template", "files"],
-  "author": "",
-  "license": "MIT"
+  "keywords": ["cli", "setup", "template", "files", "claude"],
+  "author": "wahengchang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/claude-setup-cli.git"
+  },
+  "homepage": "https://github.com/wahengchang/claude-setup-cli#readme",
+  "bugs": {
+    "url": "https://github.com/wahengchang/claude-setup-cli/issues"
+  }
 }
