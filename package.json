@@ -1,0 +1,22 @@
+{
+  "name": "claude-setup-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI for selecting and copying setup files",
+  "main": "index.js",
+  "bin": {
+    "claude-setup-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.0.0",
+    "chalk": "^4.1.2"
+  },
+  "keywords": ["cli", "setup", "template", "files"],
+  "author": "",
+  "license": "MIT"
+}
