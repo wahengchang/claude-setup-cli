@@ -1,5 +1,8 @@
 # Claude Setup CLI
 
+[![npm version](https://badge.fury.io/js/claude-setup-cli.svg)](https://www.npmjs.com/package/claude-setup-cli)
+[![npm downloads](https://img.shields.io/npm/dm/claude-setup-cli.svg)](https://www.npmjs.com/package/claude-setup-cli)
+
 Interactive CLI for selecting and copying Claude setup files to your project using directory-based navigation.
 
 ## Installation
