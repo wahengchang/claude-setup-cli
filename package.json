@@ -1,6 +1,6 @@
 {
   "name": "claude-setup-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive CLI for selecting and copying setup files",
   "main": "index.js",
   "bin": {
@@ -16,7 +16,13 @@
     "fs-extra": "^11.0.0",
     "chalk": "^4.1.2"
   },
-  "keywords": ["cli", "setup", "template", "files", "claude"],
+  "keywords": [
+    "cli",
+    "setup",
+    "template",
+    "files",
+    "claude"
+  ],
   "author": "wahengchang",
   "license": "MIT",
   "repository": {
