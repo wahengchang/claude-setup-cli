@@ -9,10 +9,11 @@ For mature codebases with established workflows and existing team structures.
 - Understanding of project architecture and team roles
 
 ## Key Features
-- Task tracking in `./tasks/[number]_[taskname].md`
-- Change documentation in `changelog.md`
-- Role-based agent system in `./.claude/agents/`
-- Workflow coordination between specialized agents
+- **Task tracking**: Organized in `./tasks/[number]_[taskname].md` for structured development workflow
+- **Change documentation**: Comprehensive logging in `changelog.md` with agent completion tracking
+- **Role-based agent system**: Specialized agents in `./.claude/agents/` for focused responsibilities
+- **Workflow coordination**: Seamless handoffs between specialized agents with clear escalation paths
+- **Template-driven setup**: Standardized project structure for consistent team collaboration
 
 ## Setup Process
 
@@ -94,3 +95,6 @@ Cross-reference and validate:
 Remove temporary files:
 - `./command*` files (command-subagent-review.md, command-update-claude.md, etc.)
 - `setup.md` (this file)
+
+### 8. reload claude
+request the user to reload claude

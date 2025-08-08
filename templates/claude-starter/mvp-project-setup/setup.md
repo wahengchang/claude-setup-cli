@@ -24,3 +24,5 @@ following `./command-subagent-review.md`, to review and improve subagents
 ## 7. remove setup files
 remove all files in `_input.md`, ./command* , ./sample-subagent/*, setup.md
 
+## 8. reload claude
+request the user to reload claude
