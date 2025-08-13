@@ -31,6 +31,7 @@ claude-setup-cli
 2. Navigate through the menu using arrow keys
 3. Select a template to copy its files to your current directory
 4. Files are copied safely (won't overwrite existing files)
+[Read More in the Blog](https://wahengchang.hashnode.dev/commanding-claude-code-the-3-ai-armies-with-claude-setup-cli)
 
 ## Contributing
 
