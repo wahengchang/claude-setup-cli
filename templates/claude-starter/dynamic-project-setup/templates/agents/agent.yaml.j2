@@ -1,0 +1,14 @@
+name: {{ agent.id }}
+description: {{ agent.description | default("Purpose-built advisory agent") }}
+owner: {{ purpose.owner | default("codegen") }}
+
+# Minimal memory surface (no vector index by default)
+memory:
+  short_term: true
+  long_term:
+    index: {{ purpose.memory.long_term.index | default("none") }}
+    namespace: {{ purpose.name }}
+
+notes:
+  scope: "{{ purpose.targets.repo }}"
+  category: "{{ purpose.category }}"

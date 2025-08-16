@@ -1,0 +1,12 @@
+# Runbook — {{ purpose.name }}
+
+## Trigger
+- {{ workflow.trigger }}
+
+## Flow
+- States: {{ workflow.states | join(" → ") }}
+- Agents operate in advisory mode (no automated actions).
+
+## Common Adjustments
+- Modify states in `workflows/{{ workflow.id }}/workflow.yaml`
+- Tune agent notes in `agents/*/agent.yaml` or `agents/*/system.md`

@@ -1,0 +1,14 @@
+# Design — {{ purpose.name }}
+
+## Scope
+Minimal scaffolding for advisory agents and a labeled workflow, without execution, routing, guardrails, or telemetry.
+
+## Architecture
+- Agents: identity + memory notes
+- Workflow: trigger + ordered state labels
+- Configs: secrets contract only
+- Docs: this DESIGN, a RUNBOOK, ADR template, and CHANGELOG
+
+## Trade-offs
+- Simplicity over automation; enforcement and routing are left to external systems.
+- Easy to extend later with specialized packs.
