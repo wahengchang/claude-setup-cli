@@ -1,8 +1,0 @@
-name: {{ workflow.id }}
-trigger: {{ workflow.trigger }}      # pr | cron | webhook | manual
-pattern: {{ workflow.pattern }}      # single | cascade
-
-states:
-{% for s in workflow.states -%}
-  - id: {{ s }}
-{% endfor %}
