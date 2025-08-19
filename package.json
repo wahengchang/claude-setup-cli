@@ -1,6 +1,6 @@
 {
   "name": "claude-setup-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interactive CLI for selecting and copying setup files",
   "main": "index.js",
   "bin": {
